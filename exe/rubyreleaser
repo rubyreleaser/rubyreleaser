@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "ruby_releaser/cli"
+RubyReleaser::CLI.start(ARGV)

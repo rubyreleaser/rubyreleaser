@@ -1,0 +1,22 @@
+require:
+  - rubocop-faker
+  - rubocop-md
+  - rubocop-minitest
+  - rubocop-packaging
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-thread_safety
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.1
+
+Style/Documentation:
+  Exclude:
+    - test/**/*
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
